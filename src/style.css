@@ -305,11 +305,27 @@ ul.two-column li {
   }
 
   .container {
-    page-break-inside: avoid;
+    page-break-inside: auto;
   }
 
-  .work-container .item {
+  .item {
     page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .title,
+  .section-header,
+  h3,
+  h4,
+  h5 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
   }
 
   .fa-external-link {
