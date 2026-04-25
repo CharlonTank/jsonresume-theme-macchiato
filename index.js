@@ -31,4 +31,14 @@ function render(resume) {
 
 module.exports = {
   render,
+  pdfRenderOptions: {
+    mediaType: 'print',
+    format: 'A4',
+    margin: {
+      top: '0.4in',
+      bottom: '0.4in',
+      left: '0',
+      right: '0',
+    },
+  },
 };
