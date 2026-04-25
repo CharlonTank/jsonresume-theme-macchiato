@@ -304,8 +304,21 @@ ul.two-column li {
     padding: 0 22px 0 34px;
   }
 
+  .left-column,
+  .right-column {
+    float: none;
+    width: 100%;
+    margin: 0;
+    overflow: visible;
+  }
+
+  .left-column {
+    margin-bottom: 12px;
+  }
+
   .container {
     page-break-inside: auto;
+    break-inside: auto;
   }
 
   .item {
@@ -320,6 +333,14 @@ ul.two-column li {
   h5 {
     page-break-after: avoid;
     break-after: avoid;
+  }
+
+  .title + .item,
+  h3 + .item,
+  .title + section,
+  h3 + section {
+    page-break-before: avoid;
+    break-before: avoid;
   }
 
   p,
