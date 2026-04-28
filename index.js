@@ -23,9 +23,15 @@ function render(resume) {
 
   Handlebars.partials(`${dir}/partials/**/*.{hbs,js}`);
 
+  const enrichedResume = {
+    ...resume,
+    openSourceProjects: (resume.projects || []).filter(p => !p.closed),
+    closedSourceProjects: (resume.projects || []).filter(p => p.closed),
+  };
+
   return Handlebars.compile(resumeTemplate)({
     style: `<style>${css}</style>`,
-    resume,
+    resume: enrichedResume,
   });
 }
 
