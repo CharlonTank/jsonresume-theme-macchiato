@@ -486,7 +486,8 @@ ul.two-column li {
   flex-wrap: wrap;
 }
 
-.main-skill {
+.main-skill,
+.languages-container ul.minimal h6 {
   font-size: 80%;
 }
 
