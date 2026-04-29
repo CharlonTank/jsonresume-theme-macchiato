@@ -338,9 +338,11 @@ ul.two-column li {
     margin: 0;
     padding: 0;
   }
-  body.compact .resume-content {
+  body.compact .resume-content,
+  body.compact .page .resume-content {
     display: flex;
     align-items: flex-start;
+    padding: 0;
   }
   body.compact .left-column {
     color: #ecf0f1;
