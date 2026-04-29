@@ -56,8 +56,8 @@ module.exports = {
     mediaType: 'print',
     format: 'A4',
     margin: {
-      top: '0.4in',
-      bottom: '0.4in',
+      top: '0',
+      bottom: '0',
       left: '0',
       right: '0',
     },
