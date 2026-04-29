@@ -486,9 +486,12 @@ ul.two-column li {
   flex-wrap: wrap;
 }
 
-.main-skill,
-.languages-container ul.minimal h6 {
+.main-skill {
   font-size: 80%;
+}
+
+.languages-container ul.minimal h6 {
+  font-size: 12px;
 }
 
 .skill {
