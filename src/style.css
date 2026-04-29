@@ -311,16 +311,46 @@ ul.two-column li {
     padding: 0 22px 0 34px;
   }
 
-  .left-column,
-  .right-column {
+  body:not(.compact) .left-column,
+  body:not(.compact) .right-column {
     float: none;
     width: 100%;
     margin: 0;
     overflow: visible;
   }
 
-  .left-column {
+  body:not(.compact) .left-column {
     margin-bottom: 12px;
+  }
+
+  body.compact .page {
+    padding: 18px 0 14px;
+  }
+  body.compact .item {
+    margin-bottom: 8px;
+  }
+  body.compact h1 {
+    font-size: 24px;
+  }
+  body.compact h2 {
+    font-size: 14px;
+  }
+  body.compact h3 {
+    font-size: 14px;
+  }
+  body.compact h4 {
+    font-size: 12px;
+  }
+  body.compact h5 {
+    font-size: 11px;
+  }
+  body.compact p,
+  body.compact li {
+    font-size: 11px;
+    line-height: 1.35;
+  }
+  body.compact .container {
+    padding-top: 10px;
   }
 
   .container {
