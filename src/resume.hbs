@@ -11,17 +11,29 @@
 
 <body class="{{#if resume.meta.layout}}{{resume.meta.layout}}{{/if}}">
   <main id="resume" class="page">
-    {{> resume-header}}
     <div class="resume-content">
       <aside class="left-column">
+        {{#resume.basics}}
+          {{#if image}}
+            <div class="profile-pic">
+              <img src="{{image}}" alt="profile-pic">
+            </div>
+          {{/if}}
+        {{/resume.basics}}
         {{> about }}
+        {{> education }}
         {{> skills }}
         {{> languages }}
         {{> interests }}
       </aside>
       <div class="right-column">
+        {{#resume.basics}}
+          <header class="right-header">
+            <h1>{{name}}</h1>
+            {{#if label}}<h2>{{label}}</h2>{{/if}}
+          </header>
+        {{/resume.basics}}
         {{> summary}}
-        {{> education }}
         {{> work }}
         {{> projects }}
         {{> volunteer }}
