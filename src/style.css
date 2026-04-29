@@ -460,8 +460,9 @@ ul.two-column li {
   flex: 1;
   min-width: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: none;
+  overflow-wrap: anywhere;
   word-break: break-word;
 }
 
