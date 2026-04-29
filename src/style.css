@@ -356,9 +356,12 @@ ul.two-column li {
     line-height: 1.25;
     margin: 1px 0;
   }
-  body.compact ul {
+  body.compact ul:not(.minimal) {
     margin: 2px 0;
     padding-left: 16px;
+  }
+  body.compact ul.minimal {
+    padding-left: 0;
   }
   body.compact .container {
     padding-top: 4px;
