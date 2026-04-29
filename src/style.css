@@ -497,8 +497,12 @@ ul.two-column li {
   font-size: 12px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 8px;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.language-name {
+  min-width: 60px;
 }
 
 .fluency-dots {
