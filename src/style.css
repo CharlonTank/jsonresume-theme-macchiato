@@ -333,8 +333,8 @@ ul.two-column li {
     box-shadow: none;
     background: linear-gradient(to right, #2c3e50 0 195px, white 195px);
   }
-  body.compact body,
-  body.compact html {
+  html,
+  body.compact {
     margin: 0;
     padding: 0;
   }
