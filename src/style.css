@@ -324,50 +324,61 @@ ul.two-column li {
   }
 
   body.compact .page {
-    padding: 14px 0 10px;
-    border-top-width: 6px;
+    padding: 12px 0 8px;
+    border-top-width: 5px;
   }
   body.compact .item {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
   body.compact h1 {
-    font-size: 20px;
-    margin: 0 0 2px;
+    font-size: 18px;
+    margin: 0 0 1px;
   }
   body.compact h2 {
-    font-size: 12px;
-    margin: 0;
-  }
-  body.compact h3 {
-    font-size: 13px;
-    margin: 0;
-  }
-  body.compact h4 {
     font-size: 11px;
     margin: 0;
   }
-  body.compact h5 {
+  body.compact h3 {
+    font-size: 12px;
+    margin: 0;
+  }
+  body.compact h4 {
     font-size: 10px;
+    margin: 0;
+  }
+  body.compact h5 {
+    font-size: 9px;
     margin: 0;
   }
   body.compact p,
   body.compact li {
-    font-size: 10px;
-    line-height: 1.3;
+    font-size: 9px;
+    line-height: 1.25;
     margin: 1px 0;
   }
+  body.compact ul {
+    margin: 2px 0;
+    padding-left: 16px;
+  }
   body.compact .container {
-    padding-top: 6px;
+    padding-top: 4px;
   }
   body.compact .keyline {
-    margin: 4px 0 5px;
+    margin: 3px 0 3px;
   }
   body.compact .profile-pic {
-    width: 70px;
-    height: 70px;
+    width: 64px;
+    height: 64px;
   }
   body.compact .summary {
-    margin: 2px 0;
+    margin: 1px 0;
+  }
+  body.compact .section-header {
+    margin-bottom: 1px;
+  }
+  body.compact .left-column {
+    width: 130px;
+    margin-right: 14px;
   }
 
   .container {
