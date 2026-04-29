@@ -371,10 +371,56 @@ ul.two-column li {
     color: #8fc7bf;
   }
   body.compact .left-column .profile-pic {
-    margin: 0 auto 12px;
-    width: 110px;
-    height: 110px;
+    margin: 0 auto 8px;
+    width: 80px;
+    height: 80px;
     border-color: #ecf0f1;
+  }
+  body.compact .left-column .container {
+    padding-top: 4px;
+  }
+  body.compact .left-column .keyline {
+    margin: 2px 0 3px;
+  }
+  body.compact .left-column .skill {
+    padding: 1px 5px;
+    margin: 1px;
+    font-size: 8.5px;
+  }
+  body.compact .left-column .info-tag-container {
+    margin-bottom: 2px;
+    gap: 5px;
+  }
+  body.compact .left-column .info-tag-container .info-text {
+    font-size: 9.5px;
+  }
+  body.compact .left-column ul.minimal li {
+    margin-bottom: 1px;
+  }
+  body.compact .left-column .languages-container ul.minimal h6 {
+    font-size: 10px;
+  }
+  body.compact .left-column .language-name {
+    min-width: 50px;
+  }
+  body.compact .left-column .interests-container ul,
+  body.compact .left-column .interests-container .flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px 6px;
+  }
+  body.compact .left-column .interests-container li,
+  body.compact .left-column .interests-container .skill {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-size: 9.5px;
+  }
+  body.compact .left-column .education-container .item {
+    margin-bottom: 4px;
+  }
+  body.compact .left-column .education-container ul.two-column {
+    column-count: 1;
   }
   body.compact .left-column em {
     color: #b6c3cc;
