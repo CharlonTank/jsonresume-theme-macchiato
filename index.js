@@ -12,6 +12,21 @@ handlebars.registerHelper({
   formatDate: date => moment(date).format('MM/YYYY'),
   lowercase: s => s.toLowerCase(),
   eq: (a, b) => a === b,
+  fluencyDots: (fluency) => {
+    const levels = {
+      Native: 5,
+      Fluent: 4,
+      Conversational: 3,
+      Intermediate: 3,
+      Basic: 2,
+      Beginner: 1,
+    };
+    const filled = levels[fluency] !== undefined ? levels[fluency] : 0;
+    return new handlebars.SafeString(
+      '<span class="dot filled"></span>'.repeat(filled) +
+      '<span class="dot"></span>'.repeat(5 - filled),
+    );
+  },
 });
 
 function render(resume) {

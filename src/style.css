@@ -492,6 +492,28 @@ ul.two-column li {
 
 .languages-container ul.minimal h6 {
   font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.fluency-dots {
+  display: inline-flex;
+  gap: 3px;
+  flex: 0 0 auto;
+}
+
+.fluency-dots .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid #56817A;
+  display: inline-block;
+}
+
+.fluency-dots .dot.filled {
+  background: #56817A;
 }
 
 .skill {
