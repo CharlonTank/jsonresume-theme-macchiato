@@ -324,9 +324,19 @@ ul.two-column li {
   }
 
   body.compact .page {
+    width: 100%;
+    min-height: 100%;
+    max-width: none;
+    margin: 0;
     padding: 0;
     border-top: none;
+    box-shadow: none;
     background: linear-gradient(to right, #2c3e50 0 195px, white 195px);
+  }
+  body.compact body,
+  body.compact html {
+    margin: 0;
+    padding: 0;
   }
   body.compact .resume-content {
     display: flex;
