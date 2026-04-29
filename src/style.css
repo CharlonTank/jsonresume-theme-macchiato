@@ -332,7 +332,7 @@ ul.two-column li {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(to right, #2c3e50 0 195px, white 195px);
+    background: linear-gradient(to right, #2c3e50 0 230px, white 230px);
   }
   body.compact .page {
     width: 100%;
@@ -352,7 +352,7 @@ ul.two-column li {
   }
   body.compact .left-column {
     color: #ecf0f1;
-    width: 195px;
+    width: 230px;
     margin: 0;
     padding: 18px 14px 18px 22px;
     flex-shrink: 0;
