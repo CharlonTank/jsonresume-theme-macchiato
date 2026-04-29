@@ -4,7 +4,7 @@
 
     {{#each resume.openSourceProjects}}
         <section class="item">
-            {{> section-header name=this.name website=this.url showWebsite=true}}
+            {{> section-header name=this.name website=this.url showWebsite=true linkLabel=this.linkLabel}}
 
             {{#if role}}
                 <h5>{{role}}</h5>
@@ -40,7 +40,7 @@
 
     {{#each resume.closedSourceProjects}}
         <section class="item">
-            {{> section-header name=this.name website=this.url showWebsite=true}}
+            {{> section-header name=this.name website=this.url showWebsite=true linkLabel=this.linkLabel}}
 
             {{#if role}}
                 <h5>{{role}}</h5>

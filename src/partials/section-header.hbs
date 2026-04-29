@@ -5,7 +5,7 @@
             <a href="{{website}}" target="_blank">
                 {{name}}
                 {{#if showWebsite }}
-                    <span class="sublink">∙ <a href="{{website}}" target="_blank" class="sublink">{{website}}</a></span>
+                    <span class="sublink">∙ <a href="{{website}}" target="_blank" class="sublink">{{#if linkLabel}}{{linkLabel}}{{else}}{{website}}{{/if}}</a></span>
                 {{/if}}
                 {{!-- <i class="fa fa-external-link" aria-hidden="true"></i> --}}
             </a>
