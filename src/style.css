@@ -323,20 +323,26 @@ ul.two-column li {
     margin-bottom: 12px;
   }
 
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  body.compact {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, #2c3e50 0 195px, white 195px);
+  }
   body.compact .page {
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     max-width: none;
     margin: 0;
     padding: 0;
     border-top: none;
     box-shadow: none;
-    background: linear-gradient(to right, #2c3e50 0 195px, white 195px);
-  }
-  html,
-  body.compact {
-    margin: 0;
-    padding: 0;
+    background: transparent;
   }
   body.compact .resume-content,
   body.compact .page .resume-content {
