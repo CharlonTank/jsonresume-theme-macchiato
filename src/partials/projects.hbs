@@ -10,6 +10,14 @@
                 <h5>{{role}}</h5>
             {{/if}}
 
+            {{#if keywords.length}}
+            <div class="flex-container">
+                {{#each keywords}}
+                    <h6 class="skill">{{.}}</h6>
+                {{/each}}
+            </div>
+            {{/if}}
+
             {{#if summary}}
             <p class="summary">{{summary}}</p>
             {{/if}}
@@ -20,14 +28,6 @@
                 <li>{{.}}</li>
                 {{/each}}
             </ul>
-            {{/if}}
-
-            {{#if keywords.length}}
-            <div class="flex-container">
-                {{#each keywords}}
-                    <h6 class="skill">{{.}}</h6>
-                {{/each}}
-            </div>
             {{/if}}
         </section>
     {{/each}}
@@ -46,6 +46,14 @@
                 <h5>{{role}}</h5>
             {{/if}}
 
+            {{#if keywords.length}}
+            <div class="flex-container">
+                {{#each keywords}}
+                    <h6 class="skill">{{.}}</h6>
+                {{/each}}
+            </div>
+            {{/if}}
+
             {{#if summary}}
             <p class="summary">{{summary}}</p>
             {{/if}}
@@ -56,14 +64,6 @@
                 <li>{{.}}</li>
                 {{/each}}
             </ul>
-            {{/if}}
-
-            {{#if keywords.length}}
-            <div class="flex-container">
-                {{#each keywords}}
-                    <h6 class="skill">{{.}}</h6>
-                {{/each}}
-            </div>
             {{/if}}
         </section>
     {{/each}}
