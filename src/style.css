@@ -505,22 +505,10 @@ ul.two-column li {
   min-width: 60px;
 }
 
-.fluency-dots {
-  display: inline-flex;
-  gap: 3px;
-  flex: 0 0 auto;
-}
-
-.fluency-dots .dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  border: 1px solid #56817A;
-  display: inline-block;
-}
-
-.fluency-dots .dot.filled {
-  background: #56817A;
+.fluency-level {
+  font-weight: 700;
+  color: #56817A;
+  letter-spacing: 0.5px;
 }
 
 .skill {
